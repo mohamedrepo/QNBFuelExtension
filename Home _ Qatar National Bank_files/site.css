@@ -1,0 +1,413 @@
+﻿.Header-navigation-menu-item:hover > a {
+    color: black !important;
+    cursor: default !important;
+}
+
+.blank {
+    color: transparent;
+}
+
+.sign-out {
+    line-height: 48px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: .7px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-bottom: 0;
+    width: 150px !important;
+    padding: 0px 5px !important;
+    font-size: 1.7rem;
+}
+
+@media (min-width: 992px) {
+    .sign-in-details {
+        font-size: 1.2rem !important;
+    }
+}
+
+/*
+font-family: 'Font Awesome\ 5 Free';
+font-weight: 900;
+>> for Free + Solid
+
+font-family: 'Font Awesome\ 5 Brands';
+font-weight: 400;
+>> for Free + Brands
+*/
+.Mobile-menu-item > .icon:after {
+    font-family: 'Font Awesome\ 5 Free' !important;
+    font-weight: 900;
+}
+
+.Mobile-menu-item > .user:after {
+    content: "\f508";
+}
+
+.Mobile-menu-item > .corp:after {
+    content: "\f275";
+}
+
+.Mobile-menu-item > .last-login:after {
+    content: "\f4fd";
+}
+
+.Mobile-menu-item > .attemps:after {
+    content: "\f235";
+}
+
+@media (min-width: 1024px) {
+    *[dir="rtl"] ul li {
+        padding-right: 0px !important;
+        padding-left: 0 !important
+    }
+}
+
+.Header-navigation-main .list-nav li.Header-navigation-main-item:nth-child(1) {
+    order: 2;
+}
+
+.Header-navigation-main .list-nav li.Header-navigation-main-item:nth-child(2) {
+    order: 3;
+}
+
+.Header-navigation-main .list-nav li.Header-navigation-main-item:nth-child(3) {
+    order: 4;
+}
+
+.Header-navigation-main .list-nav li.Header-navigation-main-item:nth-child(4) {
+    order: 5;
+}
+
+.Header-navigation-main .list-nav li.Header-navigation-main-item:nth-child(5) {
+    order: 1;
+}
+
+.notify-cookie a.notifyclose i {
+    font-size: 24px;
+}
+
+.breadcrumb .itemListElement .breadcrumb-item:after {
+    font-family: 'Font Awesome\ 5 Free' !important;
+    font-weight: 900;
+    content: "\f105";
+    font-size: 11px;
+}
+
+.breadcrumb .itemListElement .breadcrumb-item {
+    font-family: Arial !important;
+}
+
+.footer-bottom-nav-item {
+    padding: 10px !important;
+    line-height: 2;
+    margin-left: 0px !important;
+}
+
+.footer-bottom-nav p {
+    line-height: 2;
+}
+
+    .footer-bottom-nav p:after {
+        transform: translateY(-50%);
+    }
+
+.footer-bottom-nav-item {
+    direction: ltr !important;
+}
+
+.footer {
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.error-message {
+    color: red;
+    padding: 5px 15px;
+}
+
+.footer-bottom {
+    padding: 20px 0px;
+}
+
+.modal .close:before {
+    font-family: 'Font Awesome\ 5 Free' !important;
+    font-weight: 900;
+    content: "\f00d";
+}
+
+.center-div {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;
+}
+
+.spin {
+    position: fixed;
+    z-index: 1500;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: Black;
+    filter: alpha(opacity=85);
+    opacity: 0.85;
+    -moz-opacity: 0.85;
+}
+
+.inner-div {
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    padding: 2%;
+    width: 70%;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #870052 !important;
+    border-color: #870052 !important;
+    border-radius: 5px;
+}
+
+.page-subpage-content ul li a:hover {
+    border-radius: 5px;
+}
+
+.btn-default:hover {
+    color: #870052;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child,
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child {
+    padding-left: 30px !important;
+}
+
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child:before,
+    table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child:before {
+        top: unset !important;
+        background-color: #870052 !important;
+        transform: translateY(-20%);
+    }
+
+.page-subpage-content table.dataTable ul.dtr-details li:before {
+    content: unset;
+}
+
+
+table.dataTable > tbody > tr.child span.dtr-title:before {
+    font-family: 'Font Awesome\ 5 Free' !important;
+    font-weight: 900;
+    color: #870052 !important;
+    transform: translateY(-50%);
+}
+
+table.dataTable > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table.dataTable thead tr th:first-child,
+.table.dataTable thead tr td:first-child {
+    text-align: center !important;
+}
+
+.table.dataTable thead tr th,
+.table.dataTable thead tr td,
+.table.dataTable tbody tr td {
+    text-align: center !important;
+}
+
+.table thead tr th:last-child,
+.table thead tr td:last-child {
+    text-align: center !important;
+}
+
+.table tbody tr td:first-child:not(.child) {
+    text-align: center !important;
+}
+
+table.dataTable > tbody > tr.child span.dtr-title {
+    min-width: unset !important;
+}
+
+.table tbody tr td {
+    padding: 10px !important;
+}
+
+    .table tbody tr td:last-child {
+        text-align: center;
+    }
+
+input:focus,
+select:focus {
+    border-color: #870052 !important;
+}
+
+select.input-sm {
+    height: 41px;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    white-space: unset !important;
+}
+
+.table thead tr th, .table thead tr td {
+    height: unset;
+}
+
+.excel-button {
+    text-align: center !important;
+    border: none !important;
+    border-radius: 3px !important;
+    color: #fff !important;
+    /*background-color: #870052 !important;
+    background-image: unset !important;*/
+    background-image: linear-gradient(to bottom, #870052, #870052) !important;
+    height: 41px;
+}
+
+/*.table.dataTable thead tr th:nth-child(3) {
+    width: 17% !important;
+}*/
+
+div.dataTables_wrapper div.dataTables_paginate {
+    display: inline-block;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    display: inline-block;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin-top: 0px !important;
+    border-radius: 4px;
+}
+
+#notificationModal .message-container {
+    vertical-align: middle;
+    text-align: center !important;
+}
+
+.modal-body h3 {
+    margin-top: 0px;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #870052;
+    border-color: #870052;
+}
+
+.panel-primary {
+    border-color: #870052;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media (max-width: 320px) {
+    .pad-ft-rt-10-xs {
+        padding: 0px 10px;
+        font-size: 12px;
+    }
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #870052;
+    padding: 0px 0px;
+    background-color: white;
+    color: #870052;
+    text-align: center;
+    padding: 0.2em 0.6em;
+    vertical-align: middle;
+}
+
+.btn-close {
+    background-color: #1d2552;
+}
+
+.datepicker {
+    text-align: center !important;
+    width: 225px;
+    border-bottom: 0px !important;
+}
+
+.ui-datepicker {
+    width: 225px !important;
+    border: 1px solid #870052 !important;
+}
+
+.table {
+    width: 100% !important;
+}
+
+@media (max-width: 882px) {
+    .pad-top-20 {
+        padding-top: 20px;
+    }
+}
+
+.table-responsive {
+    border: 0px
+}
+
+.btn-search {
+    width: 170px;
+}
+
+div.dt-buttons a.excel-button {
+    width: 170px;
+    margin-right: 0em;
+    margin:10px;
+}
+
+.table-responsive {
+    -ms-overflow-style: none;
+}
+
+.grid-btn {
+    text-decoration: none !important;
+    color: white !important;
+    width: 140px;
+    display: inline-block;
+    float: none;
+}
+
+.dataTables_length select:focus {
+    outline: none;
+    border-color: #870052;
+}
+
+table.table-bordered.dataTable th:last-child,
+table.table-bordered.dataTable th:last-child,
+table.table-bordered.dataTable td:last-child,
+table.table-bordered.dataTable td:last-child {
+    border-right-width: 1px !important;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width:unset !important;
+    }
+}
+
